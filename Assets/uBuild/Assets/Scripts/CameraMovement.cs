@@ -14,10 +14,11 @@ public class CameraMovement : MonoBehaviour {
     float rotationY = 0.0f;
     float rotationX = 0.0f;
  
-    void OnEnable(){
+    void OnEnable()
+	{
     Vector3 rot = transform.localRotation.eulerAngles;
     rotationY = rot.y;
-    rotationX = rot.x;
+    rotationX = rot.z;
     }
 	
 	void Update(){
@@ -31,10 +32,10 @@ public class CameraMovement : MonoBehaviour {
 	
 	//if key gets pressed move up/down
 	if(Input.GetKey("w") && !EventSystem.current.IsPointerOverGameObject()){
-	transform.Translate(Vector3.up * Time.deltaTime * movespeed);
+	transform.Translate(Vector3.forward * Time.deltaTime * movespeed);
 	}
 	if(Input.GetKey("s") && !EventSystem.current.IsPointerOverGameObject()){
-	transform.Translate(Vector3.up * Time.deltaTime * -movespeed);
+	transform.Translate(Vector3.forward * Time.deltaTime * -movespeed);
 	}
 	
 	//if scrollwheel is down...

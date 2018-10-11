@@ -53,6 +53,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyAudioUtility\Scripts\EasyAudioUtility.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyAudioUtility\Scripts\EasyAudioUtility_Helper.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyAudioUtility\Scripts\EasyAudioUtility_SceneManager.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EasyInputUtility.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EIU_AxisBase.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EIU_AxisButton.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EIU_ControlsMenu.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EIU_DebugItem.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EIU_DebugWindow.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\EIU_RebindButton.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyLoginUtility\LoginManager.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyLoginUtility\LoginManager_Local.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyLoginUtility\SignupManager_Local.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyLoginUtility\SimpleShake.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\LoadGame Scripts\LoadSlotIdentifier.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\PauseMenu\PauseMenuOptions.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\PauseMenu\UIController.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\LoadGameManager.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\SaveGameTrigger.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\SaveGameUI.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\SaveSlotIdentifier.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Loading Screen Scripts\Fader.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Loading Screen Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\LevelSelectItem.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\LevelSelectManager.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenu_KeyboardController.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\OptionsController_Game.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\OptionsController_Graphics.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\SimpleCube\SimpleCube.cs" />
      <Compile Include="Assets\Script\CameraCollision.cs" />
      <Compile Include="Assets\Script\CameraFollow.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\CameraMovement.cs" />

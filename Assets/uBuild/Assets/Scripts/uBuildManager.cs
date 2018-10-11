@@ -110,7 +110,7 @@ public class uBuildManager : MonoBehaviour {
 		updateHelpText();
 		
 		//third person camera mode is false and build camera mode is true
-		changeCamera(false);
+		//changeCamera(false);
 		
 		//if place key is pressed, instantiate new piece (selected one)
 		if(Input.GetKeyDown(placeKey) && !isPlacing && !EventSystem.current.IsPointerOverGameObject() && (!pieces[selectedPiece].requiresResources 
@@ -325,10 +325,10 @@ public class uBuildManager : MonoBehaviour {
 				switchFurnitureMode(furnitureMode);
 			}
 		}
-		else{
+		//else{
 			//if we're not in build mode, set camera to third person
-			changeCamera(true);
-		}
+		//	changeCamera(true);
+		//}
 		
 		if(currentObject != null){
 			//give current piece alpha shader to make it transparent
@@ -444,31 +444,31 @@ public class uBuildManager : MonoBehaviour {
 		PlayerPrefs.SetFloat(pieces[selectedPiece].resource, PlayerPrefs.GetFloat(pieces[selectedPiece].resource) + pieces[selectedPiece].resourceAmount);
 	}
 	
-	void changeCamera(bool fp){
+	//void changeCamera(bool fp){
 		//if first person camera...
-		if(fp){
+	//	if(fp){
 			//parent the camera to character, give it proper position & rotation and disable movement script
-			Camera.main.gameObject.transform.parent = character.transform;
-			Camera.main.gameObject.transform.localEulerAngles = Vector3.zero;
-			Camera.main.gameObject.transform.localPosition = fpCamPosition;
-			Camera.main.GetComponent<CameraMovement>().enabled = false;
+	//		Camera.main.gameObject.transform.parent = character.transform;
+	//		Camera.main.gameObject.transform.localEulerAngles = Vector3.zero;
+	//		Camera.main.gameObject.transform.localPosition = fpCamPosition;
+	//		Camera.main.GetComponent<CameraMovement>().enabled = false;
 			
 			//set character scripts true so it can move around
-			foreach(Behaviour script in characterScripts){
-				script.enabled = true;
-			}
-		}
-		else{
+	//		foreach(Behaviour script in characterScripts){
+	//			script.enabled = true;
+	//		}
+	//	}
+	//	else{
 			//unparent the camera and enable cam movement script
-			Camera.main.gameObject.transform.parent = null;
-			Camera.main.GetComponent<CameraMovement>().enabled = true;
+	//		Camera.main.gameObject.transform.parent = null;
+	//		Camera.main.GetComponent<CameraMovement>().enabled = true;
 			
 			//disable character script to make sure it won't move while building
-			foreach(Behaviour script in characterScripts){
-				script.enabled = false;
-			}
-		}
-	}
+	//		foreach(Behaviour script in characterScripts){
+	//			script.enabled = false;
+	//		}
+	//	}
+	//}
 	
 	void addDefaultButtons(){
 		//for all piece types...

@@ -53,6 +53,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyAudioUtility\Scripts\Editor\EasyAudioUtilityEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyAudioUtility\Scripts\Editor\eauSceneManagerEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\Editor\EasyInputUtilityEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\EasyInputUtility\Scripts\Editor\EIU_ControlsMenuEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Editor\EMM_AddCanvases.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\PauseMenu\Editor\PauseMenuOptionsEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\PauseMenu\Editor\UIControllerEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\Editor\LoadGameManagerEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\Editor\SaveGameTriggerEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\inGame Scripts\SaveGame Scripts\Editor\SaveGameUIEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Loading Screen Scripts\Editor\LoadingScreenEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\Editor\LevelSelectManagerEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\Editor\MainMenuControllerEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\Editor\OptionsController_GameEditor.cs" />
+     <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\Editor\OptionsController_GraphicsEditor.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\Editor\ManagerEditor.cs" />
      <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
  <Reference Include="UnityEditor.StandardEvents">

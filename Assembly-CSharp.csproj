@@ -92,6 +92,7 @@
      <Compile Include="Assets\uBuild\Assets\Scripts\ResourcesExample.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\SaveAndLoad.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\ShowDescription.cs" />
+     <Compile Include="Assets\uBuild\Assets\Scripts\SwitchCamera.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\uBuildManager.cs" />
      <None Include="Assets\uBuild\Assets\Resources\UnlitAlphaWithFade.shader" />
  <Reference Include="UnityEditor.StandardEvents">

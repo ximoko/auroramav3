@@ -18,7 +18,7 @@ public class SwitchCamera : MonoBehaviour {
 	// Update is called once per frame
 	public void Update () 
 	{
-		if (Input.GetKey(KeyCode.Tab)) free = !free;
+		if (Input.GetKeyDown(KeyCode.Tab)) free = !free;
 
 		if (free==true)
 		{

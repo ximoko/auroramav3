@@ -72,9 +72,13 @@ public class uBuildManager : MonoBehaviour {
 	
 	public static bool buildMode;
 	public static bool furnitureMode;
+
+	public Camera thirdCamera;
+	public Camera mainCamera;
 	
 	void Start(){
 		//Find some objects and show the buttons to select pieces with
+		mainCamera = Camera.main;
 		helpText = GameObject.Find("help text");
 		doorLabel = GameObject.Find("Door open/close text");
 		furnitureLabel = GameObject.Find("Furniture label");
@@ -145,7 +149,7 @@ public class uBuildManager : MonoBehaviour {
 		
 		
 		RaycastHit hit;
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		Ray ray = thirdCamera.ScreenPointToRay(Input.mousePosition);
 		//ray from mouse position
         if(Physics.Raycast(ray, out hit))
 			

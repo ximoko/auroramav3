@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7DE58784-21F1-3994-1FE6-0A4051AD9857}</ProjectGuid>
+    <ProjectGuid>{7B7EFEB6-7661-5F7D-3BB2-E8F3544AE4A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -71,16 +71,16 @@
      <Compile Include="Assets\uBuild\Assets\Scripts\Editor\ManagerEditor.cs" />
      <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Alumno/Documents/Ximo/proyecto/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Alumno/Documents/Ximo/aurorama/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Alumno/Documents/Ximo/proyecto/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Alumno/Documents/Ximo/aurorama/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Alumno/Documents/Ximo/proyecto/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Alumno/Documents/Ximo/aurorama/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Alumno/Documents/Ximo/proyecto/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Alumno/Documents/Ximo/aurorama/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -367,11 +367,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7C7C17FD-F294-7C47-3478-2E1C79D702F1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{299CBA83-DF52-A851-9B0F-3C55BB539A4C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6B82346C-FD76-F635-AD37-6E11D03FAA3A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{2E273101-2E0F-7C64-7164-62C1E26E640C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{448D2D49-2482-19EA-E6A3-3C819F206CB8}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{9E071BAA-057E-20B7-A33E-EDD09447F22F}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -85,7 +85,9 @@
      <Compile Include="Assets\EasyMainMenu\Scripts\SimpleCube\SimpleCube.cs" />
      <Compile Include="Assets\Script\CameraCollision.cs" />
      <Compile Include="Assets\Script\CameraFollow.cs" />
+     <Compile Include="Assets\Script\destroyer.cs" />
      <Compile Include="Assets\Script\MovieMana.cs" />
+     <Compile Include="Assets\Script\SceneLoader.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\Door.cs" />
      <Compile Include="Assets\uBuild\Assets\Scripts\Layers.cs" />

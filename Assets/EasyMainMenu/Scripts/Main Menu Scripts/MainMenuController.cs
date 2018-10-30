@@ -12,7 +12,9 @@ public class MainMenuController : MonoBehaviour {
 
     [Header("Options Panel")]
     public GameObject MainOptionsPanel;
-    public GameObject StartGameOptionsPanel;
+    public GameObject StartGameOptionsPanel3D;
+    public GameObject StartGameOptionsPanelVR;
+    public GameObject StartGameOptionsPanelBus;
     public GameObject ReconfigPanel;
     public GameObject GamePanel;
     public GameObject ControlsPanel;
@@ -45,7 +47,9 @@ public class MainMenuController : MonoBehaviour {
     {
         //enable respective panel
         MainOptionsPanel.SetActive(true);
-        StartGameOptionsPanel.SetActive(false);
+        StartGameOptionsPanel3D.SetActive(false);
+        StartGameOptionsPanelVR.SetActive(false);
+        StartGameOptionsPanelBus.SetActive(false);
         ReconfigPanel.SetActive(false);
 
         //play anim for opening main options panel
@@ -59,11 +63,51 @@ public class MainMenuController : MonoBehaviour {
        
     }
 
-    public void openStartGameOptions()
+    public void openStartGameOptions3D()
     {
         //enable respective panel
         MainOptionsPanel.SetActive(false);
-        StartGameOptionsPanel.SetActive(true);
+        StartGameOptionsPanel3D.SetActive(true);
+        StartGameOptionsPanelVR.SetActive(false);
+        StartGameOptionsPanelBus.SetActive(false);
+        ReconfigPanel.SetActive(false);
+
+        //play anim for opening main options panel
+        anim.Play("buttonTweenAnims_on");
+
+        //play click sfx
+        playClickSound();
+
+        //enable BLUR
+        //Camera.main.GetComponent<Animator>().Play("BlurOn");
+        
+    }
+    public void openStartGameOptionsVR()
+    {
+        //enable respective panel
+        MainOptionsPanel.SetActive(false);
+        StartGameOptionsPanelVR.SetActive(true);
+        StartGameOptionsPanel3D.SetActive(false);
+        StartGameOptionsPanelBus.SetActive(false);
+        ReconfigPanel.SetActive(false);
+
+        //play anim for opening main options panel
+        anim.Play("buttonTweenAnims_on");
+
+        //play click sfx
+        playClickSound();
+
+        //enable BLUR
+        //Camera.main.GetComponent<Animator>().Play("BlurOn");
+        
+    }
+    public void openStartGameOptionsBus()
+    {
+        //enable respective panel
+        MainOptionsPanel.SetActive(false);
+        StartGameOptionsPanelBus.SetActive(true);
+        StartGameOptionsPanel3D.SetActive(false);
+        StartGameOptionsPanelVR.SetActive(false);
         ReconfigPanel.SetActive(false);
 
         //play anim for opening main options panel
@@ -81,7 +125,9 @@ public class MainMenuController : MonoBehaviour {
     {
         //enable respective panel
         MainOptionsPanel.SetActive(false);
-        StartGameOptionsPanel.SetActive(false);
+        StartGameOptionsPanel3D.SetActive(false);
+        StartGameOptionsPanelVR.SetActive(false);
+        StartGameOptionsPanelBus.SetActive(false);
         ReconfigPanel.SetActive(true);
 
         //play anim for opening main options panel

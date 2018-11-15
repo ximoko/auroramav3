@@ -1,5 +1,5 @@
 
-[![](https://github.com/ximoko/auroramav3/blob/master/Assets/EasyMainMenu/Imagenes/auroramalogook.png)] 
+![](https://github.com/ximoko/auroramav3/blob/master/Assets/EasyMainMenu/Imagenes/auroramalogook.png)
 
 # **AURORAMA** 
 
@@ -71,7 +71,7 @@ o sistemas de los cuales dependan vidas de personas de manera directa o indirect
 
 Correo / _e-mail_: mariajesusfernandez2017@cev.com 
 
-Portfolio: [Artstation Victor Castejon](https://www.artstation.com/nilayeon)
+Portfolio: [Artstation Mª Jesús](https://www.artstation.com/nilayeon)
 
 #### Ximo Font:
 

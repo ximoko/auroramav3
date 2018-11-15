@@ -1,6 +1,11 @@
 
-Aurorama
-=====================
+[![](https://github.com/ximoko/auroramav3/blob/master/Assets/EasyMainMenu/Imagenes/auroramalogook.png)] 
+
+# **AURORAMA** 
+
+Disfruta de nuestra aplicación gratuita para ver amueblar tu vivienda u oficina de manera virtual, y decidir los muebles que más se adapten a tu gusto y estilo.
+
+## Características / _Features_
 
 Herramienta para que el usuario pueda crear entornos(habitáculos),
 con objetos creados por nosotros, tanto de mobiliario como de 
@@ -12,6 +17,15 @@ VR Mode
 Business
 
 De momento estamos en desarrollo.
+
+
+## Contacto / _Contact_
+
+![](https://github.com/ximoko/auroramav3/blob/master/Assets/EasyMainMenu/Imagenes/auroramalogook.png)
+
+Buenas!!!
+Somos Mª Jesús y Ximo, estudiantes del CEV Barcelona, si deseais ver el GDD de nuestra app, clica en el siguiente enlace:
+[Ir al Game Design Document / _Go to the Game Design Document_](https://github.com/ximoko/auroramav3/blob/master/ArtSources/leeme.txt)
 
 Requisitos/Requerimientos
 =============================
@@ -52,5 +66,21 @@ no podrá/n hacerse responsable/s de cualquier pérdida de carácter material, p
 económico a su persona o terceros derivados de la utilización del mismo. Este proyecto
 no deberá ser utilizado bajo ninguna circustancia en sistemas de carácter crítico
 o sistemas de los cuales dependan vidas de personas de manera directa o indirecta.
+
+#### Mª Jesús Fernández:
+
+Correo / _e-mail_: mariajesusfernandez2017@cev.com 
+
+Portfolio: [Artstation Victor Castejon](https://www.artstation.com/nilayeon)
+
+#### Ximo Font:
+
+Correo / _e-mail_: joaquinfont2017@cev.com
+
+Portfolio: [Artstation Ximo Font](https://www.artstation.com/ximoko)
+
+
+###### *Agradecimientos del equipo Proteus.*
+
 
 

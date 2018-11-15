@@ -1,5 +1,5 @@
 
-![](https://github.com/ximoko/auroramav3/blob/master/Assets/Anim/intro.mp4)
+![](https://github.com/ximoko/auroramav3/blob/master/Assets/EasyMainMenu/Imagenes/LOGOCOLOR.PNG)
 
 # **PROTEUS** 
 

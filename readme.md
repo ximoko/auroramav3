@@ -1,7 +1,7 @@
 
-![](https://github.com/ximoko/auroramav3/blob/master/Assets/EasyMainMenu/Imagenes/auroramalogook.png)
+![](https://github.com/ximoko/auroramav3/blob/master/Assets/Anim/intro.mp4)
 
-# **AURORAMA** 
+# **PROTEUS** 
 
 Disfruta de nuestra aplicación gratuita para ver amueblar tu vivienda u oficina de manera virtual, y decidir los muebles que más se adapten a tu gusto y estilo.
 
